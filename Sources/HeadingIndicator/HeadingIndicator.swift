@@ -50,24 +50,3 @@ public struct HeadingIndicator<Content: View>: View {
             .rotationEffect(.degrees(self.targetHeading))
     }
 }
-
-struct HeadingIndicator_Previews: PreviewProvider {
-    static let berlinCenter = CLLocationCoordinate2D(
-        latitude: 52.5145579,
-        longitude: 13.366856)
-
-    static let brandenburgGate = CLLocationCoordinate2D(
-        latitude: 52.5202008,
-        longitude: 13.3478372)
-
-    static var previews: some View {
-        HeadingIndicator(
-            currentLocation: berlinCenter,
-            currentHeading: CLHeading(),
-            targetLocation: brandenburgGate) {
-                Image(systemName: "arrow.up.circle")
-        }
-        .padding()
-        .previewLayout(.sizeThatFits)
-    }
-}
