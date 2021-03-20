@@ -1,6 +1,7 @@
 # 🧭 Heading Indicator
 
-A µPackage for displaying a SwiftUI view that automatically rotates to always point towards a specified coordinate.
+A µPackage for displaying a SwiftUI view that automatically rotates to always point towards a specified coordinate. It's like a compass, only
+that it points wherever you like.
 
 ## Usage
 
