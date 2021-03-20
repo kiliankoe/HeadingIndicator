@@ -15,6 +15,8 @@ Then just create a new `HeadingIndicator` view, tell it where to point and set h
 points up by default, otherwise it won't be rotated correctly.
 
 ```swift
+import HeadingIndicator
+
 HeadingIndicator(
     currentLocation: /* The device's current location. */,
     currentHeading: /* The device's current heading. */,
