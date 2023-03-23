@@ -20,7 +20,8 @@ import HeadingIndicator
 HeadingIndicator(
     currentLocation: /* The device's current location. */,
     currentHeading: /* The device's current heading. */,
-    targetLocation: /* The location to point to. */) {
-        Image(systemName: "arrow.up.circle")
+    targetLocation: /* The location to point to. */
+) {
+    Image(systemName: "arrow.up.circle")
 }
 ```
